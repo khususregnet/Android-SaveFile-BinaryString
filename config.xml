@@ -36,9 +36,9 @@
 
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
-  <preference name="phonegap-version" value="cli-5.2.0" />
-  <preference name="android-minSdkVersion" value="7" />
-  <preference name="android-targetSdkVersion" value="19" />
+  <preference name="phonegap-version" value="cli-9.0.0" />
+  <preference name="android-minSdkVersion" value="17" />
+  <preference name="android-targetSdkVersion" value="28" />
   <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 
   <allow-intent href="http://*/*" />
