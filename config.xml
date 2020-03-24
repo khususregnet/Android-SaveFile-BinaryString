@@ -29,11 +29,13 @@
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
 
-  <gap:plugin name="org.apache.cordova.file"/>
-  <gap:plugin name="org.apache.cordova.file-transfer"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser"/>
-  <gap:plugin name="org.apache.cordova.network-information"/>
 
+  <plugin name="cordova-plugin-network-information" source="npm"/>
+	<plugin name="cordova-plugin-inappbrowser" source="npm"/>
+  <plugin name="cordova-plugin-file-transfer" source="npm"/>
+	<plugin name="cordova-plugin-file" source="npm"/>
+
+  
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <preference name="phonegap-version" value="cli-9.0.0" />
