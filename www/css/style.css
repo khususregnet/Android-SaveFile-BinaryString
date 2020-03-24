@@ -1,0 +1,16 @@
+body {
+  padding-top: 1.2em;
+}
+
+a {
+  cursor: pointer;
+}
+.block {
+  display: block;
+}
+.fill {
+  width: 100%;
+}
+textarea {
+  resize: vertical;
+}
